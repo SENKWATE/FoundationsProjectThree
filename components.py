@@ -1,10 +1,11 @@
 # CLASSES AND METHODS
 class Person():
-    def __init__(self, name, bio, age):
+    def __init__(self, name, bio, age,status):
         # your code goes here!
         self.name = name
         self.bio = bio
         self.age = age
+        self.status = status
 
         
 class Club():
@@ -29,11 +30,17 @@ class Club():
         # your code goes here!
         avg = []
         count = 0
+        index = 0
         for i in self.member_list:
             avg.append(int(i.age))
             count += int(i.age)
-            print("- %s (%s years old) - %s\n" % (i.name,i.age,i.bio))
-
+            #if i.status != "":
+            if index == 0:
+                index += 1
+                print("- %s (%s years old, %s) - %s\n" % (i.name,i.age,i.status,i.bio))
+            else:
+                print("- %s (%s years old) - %s\n" % (i.name,i.age,i.bio))
+                
         if condition == False:
             print("The average age in this club is: %.2f yr" % float(count/len(avg)))
         else:

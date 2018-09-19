@@ -1,21 +1,21 @@
 # CREATION OF DATA
 ######################### DO NOT MODIFY THIS CODE ###########################
 from components import Person, Club
-steve = Person("Steve", "average joe", 27)
-michelle = Person("Michelle", "average jane", 12)
-john = Person("John", "a blond guy", 32)
-ron = Person("Ron", "a red guy", 23)
-maha = Person("Maha", "a shy girl", 22)
-fatma = Person("Fatma", "a fruit", 24)
-dude = Person("Dude", "a college 'dude'", 25)
-dudette = Person("Dudette", "a meme", 7)
-forever_alone = Person("Forever Alone", "a more popular meme", 9)
-confession_bear = Person("Confession Bear", "an even more popular meme", 10)
-jack = Person("Jack", "an american", 43)
-audrey = Person("Audrey", "just some woman", 31)
-asis = Person("Asis", "a joke we have at Coded", 1)
-caesar = Person("Julius Caesar", "Google me.", 56)
-marcus_aurelius = Person("Marcus Aurelius", "Roman Emperor, philosopher. 'Nuff said.", 61)
+steve = Person("Steve", "average joe", 27,"President")
+michelle = Person("Michelle", "average jane", 12,"President")
+john = Person("John", "a blond guy", 32,"")
+ron = Person("Ron", "a red guy", 23,"")
+maha = Person("Maha", "a shy girl", 22,"")
+fatma = Person("Fatma", "a fruit", 24,"")
+dude = Person("Dude", "a college 'dude'", 25,"President")
+dudette = Person("Dudette", "a meme", 7,"")
+forever_alone = Person("Forever Alone", "a more popular meme", 9,"")
+confession_bear = Person("Confession Bear", "an even more popular meme", 10,"")
+jack = Person("Jack", "an american", 43,"")
+audrey = Person("Audrey", "just some woman", 31,"")
+asis = Person("Asis", "a joke we have at Coded", 1,"")
+caesar = Person("Julius Caesar", "Google me.", 56,"")
+marcus_aurelius = Person("Marcus Aurelius", "Roman Emperor, philosopher. 'Nuff said.", 61,"")
 
 people = [
 	steve,

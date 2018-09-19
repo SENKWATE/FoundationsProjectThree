@@ -13,7 +13,7 @@ while True:
         print("~Enter an integer number to indicate you age~")
         
 my_bio = input("Type a bio for yourself: ")
-myself = Person(my_name, my_bio, my_age)
+myself = Person(my_name, my_bio, my_age,"President")
 
 def introduction():
     print("Hello, %s. Welcome to our portal." % my_name)
